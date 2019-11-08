@@ -1,1 +1,29 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 754px;
+  background-image: url("images/road.jpg");
+  background-size: 100%;
+}
+
+header #intro {
+  outline: solid 1px black;
+  width: 30%;
+  height: 15%;
+  text-align: center;
+}
+
+header ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 100px;
+}
+
+header ul li a {
+  text-decoration: none;
+  font-family: sans-serif;
+}
+/*# sourceMappingURL=style.css.map */
