@@ -6,42 +6,33 @@ header
     height: 754px
     background-image: url("images/road.jpg")
     background-size: 100%
+    background-repeat: no-repeat
+    text-align: center
     #intro
-        outline: solid 1px black
         width: 30%
         height: 15%
         text-align: center
+        position: absolute
+        left: 35%
+        top: 40%
+        color: white
+        h1
+            font-family: 'Hind Silguri', sans-serif
+            font-size: 55px
+        p
+            font-family: 'Josefin Sans', sans-serif
     ul li
         list-style-type: none
         display: inline-block
+        margin-left: 100px
         margin-right: 100px
         a
             text-decoration: none
             font-family: 'Josefin Sans', sans-serif //From font.css
             font-weight: bolder
             color: #ffbe33
-section
-    padding-top: 30px
-    padding-bottom: 30px
-    text-align: center
-    outline: solid 1px blue
-    .templates
-        margin: 50px
-        outline: solid 1px black
-        display: inline-block
-        width: 25%
-    .more
-        a button
-            text-align: center
-            color: white
-            border: none
-            border-radius: 5px
-            height: 35px
-            background: #ffbe33
-            &:focus
-                outline: none
+            font-size: 24px
 footer
-    outline: solid 1px red
     background-color: #333
     padding: 20px
     #links
@@ -52,3 +43,5 @@ footer
             a
                 text-decoration: none
                 color: #888
+section
+    text-align: center
