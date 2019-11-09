@@ -36,8 +36,7 @@ header
 section
     text-align: center
     padding: 10px
-    #temp
-        border: solid 1px black
+    #temp //The cards displaying top picks
         border-radius: 7%
         display: inline-block
         height: 230px
@@ -45,13 +44,9 @@ section
         margin-bottom: 40px
         margin-top: 40px
         margin-right: 80px
+        box-shadow: 0px 3px 6px -2px rgba(0,0,0, 0.8)
         margin-left: 80px
-        hr
-            position: relative
-            bottom: -60px
-        h4
-            position: relative
-            bottom: -45px
+        overflow: hidden
     .more
         a button
             border: none
@@ -70,4 +65,11 @@ footer
             list-style: none
             a
                 text-decoration: none
-                color: #888
+                color: #888888
+#temp
+    img
+        height: 85%
+        width: 100%
+    h4
+        padding: 0
+        margin: 0
