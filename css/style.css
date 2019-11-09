@@ -40,11 +40,17 @@ header ul li {
 }
 
 header ul li a {
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
   text-decoration: none;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: bolder;
   color: #ffbe33;
   font-size: 24px;
+}
+
+header ul li a:hover {
+  color: #a8a8a8;
 }
 
 section {
@@ -71,8 +77,56 @@ section .more a button {
   background: #f19d00;
   color: white;
   font-weight: bold;
-  height: 35px;
+  height: 40px;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+section .more a button:focus {
+  outline: none;
+}
+
+section .more a button:active {
+  -webkit-box-shadow: inset 0px 2px 2px -1px black;
+          box-shadow: inset 0px 2px 2px -1px black;
+}
+
+section h1 {
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+#temp img {
+  height: 85%;
+  width: 100%;
+}
+
+#temp h4 {
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+#temp:hover {
+  -webkit-transition: .2s ease-in;
+  transition: .2s ease-in;
+  -webkit-transform: scale(1.1) translateY(-12px);
+          transform: scale(1.1) translateY(-12px);
+  -webkit-box-shadow: 0px 5px 6px -3px rgba(0, 0, 0, 0.8);
+          box-shadow: 0px 5px 6px -3px rgba(0, 0, 0, 0.8);
+}
+
+#temp:active {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: none;
+  transition: none;
+  -webkit-box-shadow: 0px 1px 2px -1px black;
+          box-shadow: 0px 1px 2px -1px black;
+}
+
+#top-picks a {
+  text-decoration: none;
 }
 
 footer {
@@ -93,13 +147,9 @@ footer #links ul li a {
   color: #888888;
 }
 
-#temp img {
-  height: 85%;
-  width: 100%;
-}
-
-#temp h4 {
-  padding: 0;
-  margin: 0;
+footer #social-media a {
+  text-decoration: none;
+  font-size: 24px;
+  color: black;
 }
 /*# sourceMappingURL=style.css.map */

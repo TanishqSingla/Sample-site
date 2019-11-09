@@ -28,11 +28,14 @@ header
         margin-left: 100px
         margin-right: 100px
         a
+            transition: all .3s ease-in
             text-decoration: none
             font-family: 'Josefin Sans', sans-serif //From font.css
             font-weight: bolder
             color: #ffbe33
             font-size: 24px
+            &:hover
+                color: #a8a8a8
 section
     text-align: center
     padding: 10px
@@ -53,8 +56,35 @@ section
             background: #f19d00
             color: white
             font-weight: bold
-            height: 35px
+            height: 40px
             border-radius: 5px
+            cursor: pointer
+            &:focus
+                outline: none
+            &:active
+                box-shadow: inset 0px 2px 2px -1px black
+    h1
+        font-family: 'Hind Siliguri', sans-serif
+#temp
+    img
+        height: 85%
+        width: 100%
+    h4
+        margin: 0
+        padding: 0
+        color: black
+        font-family: 'Hind Siliguri', sans-serif
+    &:hover
+        transition: .2s ease-in
+        transform: scale(1.1) translateY(-12px)
+        box-shadow: 0px 5px 6px -3px rgba(0,0,0, 0.8)
+    &:active
+        transform: scale(1)
+        transition: none
+        box-shadow: 0px 1px 2px -1px black
+#top-picks
+    a
+        text-decoration: none
 footer
     background-color: #333
     padding: 20px
@@ -66,10 +96,8 @@ footer
             a
                 text-decoration: none
                 color: #888888
-#temp
-    img
-        height: 85%
-        width: 100%
-    h4
-        padding: 0
-        margin: 0
+    #social-media
+        a
+            text-decoration: none
+            font-size: 24px
+            color: black
