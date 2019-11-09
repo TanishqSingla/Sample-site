@@ -18,7 +18,7 @@ header #intro {
   text-align: center;
   position: absolute;
   left: 35%;
-  top: 40%;
+  top: 35%;
   color: white;
 }
 
@@ -29,6 +29,7 @@ header #intro h1 {
 
 header #intro p {
   font-family: 'Josefin Sans', sans-serif;
+  font-size: 24px;
 }
 
 header ul li {
@@ -44,6 +45,42 @@ header ul li a {
   font-weight: bolder;
   color: #ffbe33;
   font-size: 24px;
+}
+
+section {
+  text-align: center;
+  padding: 10px;
+}
+
+section #temp {
+  border: solid 1px black;
+  border-radius: 7%;
+  display: inline-block;
+  height: 230px;
+  width: 200px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  margin-right: 80px;
+  margin-left: 80px;
+}
+
+section #temp hr {
+  position: relative;
+  bottom: -60px;
+}
+
+section #temp h4 {
+  position: relative;
+  bottom: -45px;
+}
+
+section .more a button {
+  border: none;
+  background: #f19d00;
+  color: white;
+  font-weight: bold;
+  height: 35px;
+  border-radius: 5px;
 }
 
 footer {
@@ -62,9 +99,5 @@ footer #links ul li {
 footer #links ul li a {
   text-decoration: none;
   color: #888;
-}
-
-section {
-  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
