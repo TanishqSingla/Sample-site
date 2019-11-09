@@ -60,5 +60,19 @@ section .more a button:focus {
 footer {
   outline: solid 1px red;
   background-color: #333;
+  padding: 20px;
+}
+
+footer #links h4 {
+  color: #888;
+}
+
+footer #links ul li {
+  list-style: none;
+}
+
+footer #links ul li a {
+  text-decoration: none;
+  color: #888;
 }
 /*# sourceMappingURL=style.css.map */
