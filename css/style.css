@@ -3,6 +3,7 @@ body {
   padding: 0;
 }
 
+/* Header editing goes here */
 header {
   margin: 0;
   height: 754px;
@@ -20,6 +21,7 @@ header #intro {
   left: 35%;
   top: 35%;
   color: white;
+  pointer-events: none;
 }
 
 header #intro h1 {
@@ -53,12 +55,12 @@ header ul li a:hover {
   color: #a8a8a8;
 }
 
-section {
+.picks {
   text-align: center;
-  padding: 10px;
+  padding: 25px;
 }
 
-section #temp {
+.picks #temp {
   border-radius: 7%;
   display: inline-block;
   height: 230px;
@@ -72,7 +74,7 @@ section #temp {
   overflow: hidden;
 }
 
-section .more a button {
+.picks .more a button {
   border: none;
   background: #f19d00;
   color: white;
@@ -82,16 +84,23 @@ section .more a button {
   cursor: pointer;
 }
 
-section .more a button:focus {
+.picks .more a button:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.picks .more a button:focus {
   outline: none;
 }
 
-section .more a button:active {
+.picks .more a button:active {
+  -webkit-transform: scale(1);
+          transform: scale(1);
   -webkit-box-shadow: inset 0px 2px 2px -1px black;
           box-shadow: inset 0px 2px 2px -1px black;
 }
 
-section h1 {
+.picks h1 {
   font-family: 'Hind Siliguri', sans-serif;
 }
 
@@ -108,8 +117,8 @@ section h1 {
 }
 
 #temp:hover {
-  -webkit-transition: .2s ease-in;
-  transition: .2s ease-in;
+  -webkit-transition: 0.2s cubic-bezier(0.25, 1.24, 1, 1.67);
+  transition: 0.2s cubic-bezier(0.25, 1.24, 1, 1.67);
   -webkit-transform: scale(1.1) translateY(-12px);
           transform: scale(1.1) translateY(-12px);
   -webkit-box-shadow: 0px 5px 6px -3px rgba(0, 0, 0, 0.8);
@@ -129,6 +138,91 @@ section h1 {
   text-decoration: none;
 }
 
+#join {
+  height: 600px;
+  margin: 0px;
+}
+
+#join article {
+  display: inline-block;
+  margin: 0;
+  height: 600px;
+}
+
+#join .text {
+  background: #494949;
+  width: 40%;
+  position: absolute;
+  left: 0;
+  text-align: center;
+}
+
+#join .text h1 {
+  font-size: 38px;
+  margin: 30px;
+  color: white;
+  font-family: 'Josefin Sansa', sans-serif;
+}
+
+#join .text p {
+  margin: 20px;
+  font-size: 24px;
+  color: white;
+  font-weight: lighter;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+#join .text h1, #join .text p {
+  position: relative;
+  top: 24%;
+}
+
+#join .form {
+  position: absolute;
+  right: 0;
+  width: 60%;
+  background: #eee1c8;
+}
+
+#join form {
+  background: #fff;
+  border-radius: 10%;
+  height: 70%;
+  width: 40%;
+  position: relative;
+  left: 30%;
+  top: 10%;
+  padding: 10px;
+  padding-left: 30px;
+  -webkit-box-shadow: 0px 3px 6px -2px #000;
+          box-shadow: 0px 3px 6px -2px #000;
+}
+
+#join form h2, #join form p {
+  font-family: sans-serif;
+}
+
+#join form input[type="submit"] {
+  border: none;
+  height: 40px;
+  width: 80px;
+  color: white;
+  font-weight: bold;
+  background: #ff0000;
+}
+
+#join form input[type="text"], #join form input[type="email"], #join form input[type="password"] {
+  border: none;
+  border-bottom: solid 1px black;
+  width: 60%;
+  padding-left: 10px;
+}
+
+#join form input[type="text"]:focus, #join form input[type="email"]:focus, #join form input[type="password"]:focus {
+  outline: none;
+}
+
+/* Footer editing goes here */
 footer {
   background-color: #333;
   padding: 20px;
