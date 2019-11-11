@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Sample</title>
-    <!-- <script src="https://use.fontawesome.com/b76c3754c3.js"></script> -->
+    <script src="https://use.fontawesome.com/b76c3754c3.js"></script>
+    <script src="js.js"></script>
     <link rel="stylesheet" href="css/font.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -24,9 +25,10 @@
           dolor sit amet consectetur adipisicing elit. Impedit quia aliquam.
         </p>
       </div>
-      <button>Sign In</button>
+      <button onclick="show()">Sign In</button>
     </header>
-    <div class="container">
+    <div id="container" class="hide">
+      <div class="box" onclick="hide()">X</div>
       <form action="">
         <h2>Sign In</h2>
         <p>Username</p>
@@ -34,6 +36,8 @@
         <p>Password</p>
         <input type="password">
         <input type="submit" value="Sign In">
+        <a href="">Need help?</a>
+        <a href="">No account? Create One!</a>
       </form>
     </div>
     <section class="picks">
