@@ -231,13 +231,23 @@ header
             color: white
             font-weight: bold
             background: #ff0000
-        input[type="text"], input[type="email"], input[type="password"]
-            border: none
-            border-bottom: solid 1px black
-            width: 60%
-            padding-left: 5px
+            cursor: pointer
+            box-shadow: 0px 3px 6px -2px #000000
+            &:hover
+                transform: scale(1.05)
+            &:active
+                transform: scale(1)
+                box-shadow: inset 0px 3px 5px -2px black
             &:focus
                 outline: none
+
+        input[type="text"], input[type="email"], input[type="password"]
+                border: none
+                border-bottom: solid 1px black
+                width: 60%
+                padding-left: 5px
+                &:focus
+                    outline: none
 
 /* Footer editing goes here */
 footer

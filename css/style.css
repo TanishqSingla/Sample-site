@@ -335,6 +335,25 @@ header button:focus {
   color: white;
   font-weight: bold;
   background: #ff0000;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 3px 6px -2px #000000;
+          box-shadow: 0px 3px 6px -2px #000000;
+}
+
+#join form input[type="submit"]:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+#join form input[type="submit"]:active {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-box-shadow: inset 0px 3px 5px -2px black;
+          box-shadow: inset 0px 3px 5px -2px black;
+}
+
+#join form input[type="submit"]:focus {
+  outline: none;
 }
 
 #join form input[type="text"], #join form input[type="email"], #join form input[type="password"] {
