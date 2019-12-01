@@ -3,7 +3,6 @@ body {
   padding: 0;
 }
 
-/* Header editing goes here */
 header {
   margin: 0;
   height: 754px;
@@ -367,7 +366,6 @@ header button:focus {
   outline: none;
 }
 
-/* Footer editing goes here */
 footer {
   background-color: #333;
   padding: 20px;
