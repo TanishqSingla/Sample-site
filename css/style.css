@@ -23,13 +23,42 @@ header ul li {
 }
 
 header #intro {
-  margin: 10em auto;
+  margin: 15em auto;
   width: 30em;
   color: white;
 }
 
 header #intro h1 {
-  line-height: 125px;
-  font-size: 90px;
+  font-family: 'Hind Silguri', sans-serif;
+  font-size: 55px;
+}
+
+header #intro p {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 24px;
+}
+
+header button {
+  position: absolute;
+  bottom: 2em;
+  right: 3em;
+  background: none;
+  border: 1px solid white;
+  color: white;
+  font-weight: bolder;
+  height: 35px;
+  width: 75px;
+  cursor: pointer;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+header button:hover {
+  background: white;
+  color: black;
+}
+
+header button:focus {
+  outline: none;
 }
 /*# sourceMappingURL=style.css.map */
