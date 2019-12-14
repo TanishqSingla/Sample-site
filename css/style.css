@@ -1,4 +1,14 @@
 body {
   padding: 0;
+  text-align: center;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+}
+
+header ul {
+  margin: 0;
 }
 /*# sourceMappingURL=style.css.map */
