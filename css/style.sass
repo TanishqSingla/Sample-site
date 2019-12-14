@@ -1,3 +1,13 @@
+ /* Below is the index for css/sass */
+ /* Index
+ 1. Body
+ 2. Header
+ ul
+ ul > li
+ #intro
+ #intro > h1 + p
+ button &:hover &:focus
+ */
 body
     margin: 0
     padding: 0
@@ -9,33 +19,44 @@ header
     height: 45em
     margin: 0
     padding: 0
+    position: relative
+    .overlay
+        background-color: #000000
+        opacity: 0.2
+        position: absolute
+        height: 100%
+        width: 100%
     ul
         margin: 0
         list-style-type: none
         li
             display: inline-block
     #intro
-        margin: 15em auto
         width: 30em
         color: white
+        position: absolute
+        bottom: 15em
+        left: 34em
         h1
             font-family: 'Hind Silguri', sans-serif
-            font-size: 55px
+            font-size: 3.4375em
         p
             font-family: 'Josefin Sans', sans-serif
-            font-size: 24px
+            font-size: 1.5em
     button
-        position: absolute
+        background: none
+        border: solid 1px white
         bottom: 2em
         right: 3em
-        background: none
-        border: 1px solid white
         color: white
-        font-weight: bolder
-        height: 35px
-        width: 75px
         cursor: pointer
-        transition: .3s ease-in-out
+        font-family: 'Josefin Sans', sans-serif
+        font-size: 1em
+        font-weight: bolder
+        height: 2.5em
+        position: absolute
+        transition: all .3s ease-in
+        width: 5.3125em
         &:hover
             background: white
             color: black
