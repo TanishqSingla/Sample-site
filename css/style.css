@@ -21,15 +21,6 @@ header {
   height: 45em;
   margin: 0;
   padding: 0;
-  position: relative;
-}
-
-header .overlay {
-  background-color: #000000;
-  opacity: 0.2;
-  position: absolute;
-  height: 100%;
-  width: 100%;
 }
 
 header ul {
@@ -42,11 +33,9 @@ header ul li {
 }
 
 header #intro {
+  margin: 16em auto;
   width: 30em;
   color: white;
-  position: absolute;
-  bottom: 15em;
-  left: 34em;
 }
 
 header #intro h1 {
