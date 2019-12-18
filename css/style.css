@@ -32,6 +32,20 @@ header ul li {
   display: inline-block;
 }
 
+header ul li a {
+  color: #ffbe33;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 24px;
+  font-weight: bolder;
+  text-decoration: none;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+}
+
+header ul li a:hover {
+  color: #a8a8a8;
+}
+
 header #intro {
   margin: 16em auto;
   width: 30em;
