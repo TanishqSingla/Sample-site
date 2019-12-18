@@ -30,6 +30,8 @@ header ul {
 
 header ul li {
   display: inline-block;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 header ul li a {
