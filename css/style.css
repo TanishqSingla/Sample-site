@@ -20,13 +20,12 @@ header {
   background-size: 100%;
   height: 45em;
   margin: 0;
-  padding: 0;
+  padding: 2em 0;
 }
 
 header ul {
   margin: 0;
   list-style-type: none;
-  padding-top: 2em;
 }
 
 header ul li {
@@ -91,13 +90,17 @@ header button:focus {
   outline: none;
 }
 
+#picks {
+  padding: 2em 0;
+}
+
 #picks h1 {
-  margin: 2em auto;
+  margin: 0 auto;
   font-family: 'Hind Silguri', sans-serif;
 }
 
 #picks button {
-  background: #f19d00;
+  background: #f88020;
   border: none;
   border-radius: 5px;
   color: white;
