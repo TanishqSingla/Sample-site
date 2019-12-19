@@ -24,12 +24,12 @@ header #intro {
 }
 
 header #intro h1 {
-  font-family: "Hind Silguri", sans-serif;
+  font-family: 'Hind Silguri', sans-serif;
   font-size: 55px;
 }
 
 header #intro p {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 24px;
 }
 
@@ -42,12 +42,12 @@ header ul li {
 
 header ul li a {
   color: #ffbe33;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 24px;
   font-weight: bolder;
   text-decoration: none;
-  -webkit-transition: all 0.3s ease-in;
-  transition: all 0.3s ease-in;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
 }
 
 header ul li a:hover {
@@ -60,14 +60,14 @@ header button {
   bottom: 40px;
   color: white;
   cursor: pointer;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 16px;
   font-weight: bolder;
   height: 40px;
   position: absolute;
   right: 40px;
-  -webkit-transition: all 0.3s ease-in;
-  transition: all 0.3s ease-in;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
   width: 85px;
 }
 
@@ -84,7 +84,7 @@ header button:focus {
   background: white;
   border-radius: 10%;
   -webkit-box-shadow: 0px 16px 12px -3px rgba(0, 0, 0, 0.7);
-  box-shadow: 0px 16px 12px -3px rgba(0, 0, 0, 0.7);
+          box-shadow: 0px 16px 12px -3px rgba(0, 0, 0, 0.7);
   position: fixed;
   height: 400px;
   left: 35%;
@@ -107,7 +107,7 @@ header button:focus {
   bottom: 70px;
   border: none;
   -webkit-box-shadow: 0px 4px 6px -2px #000;
-  box-shadow: 0px 4px 6px -2px #000;
+          box-shadow: 0px 4px 6px -2px #000;
   color: white;
   cursor: pointer;
   font-weight: bolder;
@@ -120,31 +120,27 @@ header button:focus {
 
 #container input[type="submit"]:active {
   -webkit-box-shadow: inset 0px 3px 3px -1px rgba(0, 0, 0, 0.6);
-  box-shadow: inset 0px 3px 3px -1px rgba(0, 0, 0, 0.6);
+          box-shadow: inset 0px 3px 3px -1px rgba(0, 0, 0, 0.6);
 }
 
 #container input[type="submit"]:focus {
   outline: none;
 }
 
-#container input[type="text"],
-#container input[type="password"] {
+#container input[type="text"], #container input[type="password"] {
   border: none;
   border-bottom: solid 1px black;
   font-size: 18px;
-  font-family: "Ubuntu", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   height: 30px;
   width: 60%;
 }
 
-#container input[type="text"]:focus,
-#container input[type="password"]:focus {
+#container input[type="text"]:focus, #container input[type="password"]:focus {
   outline: none;
 }
 
-#container h2,
-#container p,
-#container a {
+#container h2, #container p, #container a {
   font-family: sans-serif;
 }
 
@@ -193,7 +189,7 @@ header button:focus {
 .picks #temp {
   border-radius: 7%;
   -webkit-box-shadow: 0px 3px 6px -2px rgba(0, 0, 0, 0.8);
-  box-shadow: 0px 3px 6px -2px rgba(0, 0, 0, 0.8);
+          box-shadow: 0px 3px 6px -2px rgba(0, 0, 0, 0.8);
   display: inline-block;
   height: 230px;
   margin-bottom: 40px;
@@ -216,7 +212,7 @@ header button:focus {
 
 .picks .more a button:hover {
   -webkit-transform: scale(1.05);
-  transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .picks .more a button:focus {
@@ -225,13 +221,13 @@ header button:focus {
 
 .picks .more a button:active {
   -webkit-box-shadow: inset 0px 2px 2px -1px black;
-  box-shadow: inset 0px 2px 2px -1px black;
+          box-shadow: inset 0px 2px 2px -1px black;
   -webkit-transform: scale(1);
-  transform: scale(1);
+          transform: scale(1);
 }
 
 .picks h1 {
-  font-family: "Hind Siliguri", sans-serif;
+  font-family: 'Hind Siliguri', sans-serif;
 }
 
 #temp img {
@@ -241,25 +237,25 @@ header button:focus {
 
 #temp h4 {
   color: black;
-  font-family: "Hind Siliguri", sans-serif;
+  font-family: 'Hind Siliguri', sans-serif;
   margin: 0;
   padding: 0;
 }
 
 #temp:hover {
   -webkit-box-shadow: 0px 5px 6px -3px rgba(0, 0, 0, 0.8);
-  box-shadow: 0px 5px 6px -3px rgba(0, 0, 0, 0.8);
+          box-shadow: 0px 5px 6px -3px rgba(0, 0, 0, 0.8);
   -webkit-transition: 0.2s cubic-bezier(0.25, 1.24, 1, 1.67);
   transition: 0.2s cubic-bezier(0.25, 1.24, 1, 1.67);
   -webkit-transform: scale(1.1) translateY(-12px);
-  transform: scale(1.1) translateY(-12px);
+          transform: scale(1.1) translateY(-12px);
 }
 
 #temp:active {
   -webkit-box-shadow: 0px 1px 2px -1px black;
-  box-shadow: 0px 1px 2px -1px black;
+          box-shadow: 0px 1px 2px -1px black;
   -webkit-transform: scale(1);
-  transform: scale(1);
+          transform: scale(1);
   -webkit-transition: none;
   transition: none;
 }
@@ -289,21 +285,20 @@ header button:focus {
 
 #join .text h1 {
   color: white;
-  font-family: "Josefin Sansa", sans-serif;
+  font-family: 'Josefin Sansa', sans-serif;
   font-size: 38px;
   margin: 30px;
 }
 
 #join .text p {
   color: white;
-  font-family: "Hind Siliguri", sans-serif;
+  font-family: 'Hind Siliguri', sans-serif;
   font-size: 24px;
   font-weight: lighter;
   margin: 20px;
 }
 
-#join .text h1,
-#join .text p {
+#join .text h1, #join .text p {
   position: relative;
   top: 24%;
 }
@@ -319,7 +314,7 @@ header button:focus {
   background: #fff;
   border-radius: 10%;
   -webkit-box-shadow: 0px 3px 6px -2px #000;
-  box-shadow: 0px 3px 6px -2px #000;
+          box-shadow: 0px 3px 6px -2px #000;
   height: 70%;
   left: 30%;
   padding: 10px;
@@ -329,8 +324,7 @@ header button:focus {
   width: 40%;
 }
 
-#join form h2,
-#join form p {
+#join form h2, #join form p {
   font-family: sans-serif;
 }
 
@@ -338,7 +332,7 @@ header button:focus {
   background: #ff0000;
   border: none;
   -webkit-box-shadow: 0px 3px 6px -2px #000000;
-  box-shadow: 0px 3px 6px -2px #000000;
+          box-shadow: 0px 3px 6px -2px #000000;
   color: white;
   cursor: pointer;
   font-weight: bold;
@@ -348,32 +342,28 @@ header button:focus {
 
 #join form input[type="submit"]:hover {
   -webkit-transform: scale(1.05);
-  transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 #join form input[type="submit"]:active {
   -webkit-box-shadow: inset 0px 3px 5px -2px black;
-  box-shadow: inset 0px 3px 5px -2px black;
+          box-shadow: inset 0px 3px 5px -2px black;
   -webkit-transform: scale(1);
-  transform: scale(1);
+          transform: scale(1);
 }
 
 #join form input[type="submit"]:focus {
   outline: none;
 }
 
-#join form input[type="text"],
-#join form input[type="email"],
-#join form input[type="password"] {
+#join form input[type="text"], #join form input[type="email"], #join form input[type="password"] {
   border: none;
   border-bottom: solid 1px black;
   padding-left: 5px;
   width: 60%;
 }
 
-#join form input[type="text"]:focus,
-#join form input[type="email"]:focus,
-#join form input[type="password"]:focus {
+#join form input[type="text"]:focus, #join form input[type="email"]:focus, #join form input[type="password"]:focus {
   outline: none;
 }
 
