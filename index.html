@@ -1,23 +1,35 @@
+<!-- Sample site reworked -->
+<!-- Below is the comment index for different sections of the website, to use the index just search the name of the section-->
+<!-- 
+  Index
+  1. Header
+    i)Navigation Bar
+    ii)Intro
+    iii)Sign in
+  2. Top Picks Section
+    i)h1 and Figure tags
+    ii) top picks section
+    iii) all figures
+ -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Sample</title>
-    <script src="https://use.fontawesome.com/b76c3754c3.js"></script>
-    <script src="js.js"></script>
-    <link rel="stylesheet" href="css/font.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <title>Sample</title>
   </head>
   <body>
+    <!-- Header is here -->
     <header>
-      <div>&nbsp;</div>
+      <!-- Navigation Bar here -->
       <ul>
-        <li><a href="">About</a></li>
-        <li><a href="">Home</a></li>
-        <li><a href="">Contact</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Contact</a></li>
       </ul>
+      <!-- Intro here -->
       <div id="intro">
         <h1>Lorem Ipsum</h1>
         <p>
@@ -25,111 +37,86 @@
           dolor sit amet consectetur adipisicing elit. Impedit quia aliquam.
         </p>
       </div>
-      <button onclick="show()">Sign In</button>
+      <!-- Sign In here -->
+      <button>Sign In</button>
     </header>
-    <div id="container" class="hide">
-      <div class="box" onclick="hide()">X</div>
-      <form action="">
-        <h2>Sign In</h2>
-        <p>Username</p>
-        <input type="text" />
-        <p>Password</p>
-        <input type="password" />
-        <input type="submit" value="Sign In" />
-        <a href="">Need help?</a>
-        <a href="">No account? Create One!</a>
-      </form>
-    </div>
-    <section class="picks">
+    <!-- Top Picks Section here -->
+    <section id="picks">
+      <!-- h1 and figure tags -->
       <h1>Top Picks</h1>
-      <div id="top-picks" class="pick-1">
-        <a href="css/images/Tokyo.jpg">
-          <div id="temp">
-            <img src="css/images/Tokyo.jpg" alt="Scenery of Tokyo street" />
-            <h4>Tokyo</h4>
-          </div>
-        </a>
-        <a href="css/images/Mumbai.jpg">
-          <div id="temp">
-            <img src="css/images/Mumbai.jpg" alt="Scene of Gateway of India" />
-            <h4>Mumbai</h4>
-          </div>
-        </a>
-        <a href="css/images/Turkey.jpg">
-          <div id="temp">
-            <img
-              src="css/images/Turkey.jpg"
-              alt="Arial view of buildings and birds in Turkey"
-            />
-            <h4>Turkey</h4>
-          </div>
-        </a>
-      </div>
+      <!-- top picks section here -->
       <div id="top-picks">
-        <a href="new-york.html">
-          <div id="temp">
-            <img src="css/images/new-york.jpg" alt="A scene of New York" />
-            <h4>New York</h4>
-          </div>
-        </a>
-        <a href="css/images/Paris.jpg">
-          <div id="temp">
-            <img src="css/images/Paris.jpg" alt="An image showing Paris" />
-            <h4>Paris</h4>
-          </div>
-        </a>
-        <a href="css/images/Greece.jpg">
-          <div id="temp">
-            <img src="css/images/Greece.jpg" alt="A photo of Greece" />
-            <h4>Greece</h4>
-          </div>
-        </a>
+        <!-- all figures here -->
+        <figure>
+          <img src="css/images/tokyo.jpg" alt="Tokyo" />
+          <figcaption>Tokyo</figcaption>
+        </figure>
+        <figure>
+          <img src="css/images/Mumbai.jpg" alt="Mumbai" />
+          <figcaption>Mumbai</figcaption>
+        </figure>
+        <figure>
+          <img src="css/images/Greece.jpg" alt="Greece" />
+          <figcaption>Greece</figcaption>
+        </figure>
+        <figure>
+          <img src="css/images/Paris.jpg" alt="Paris" />
+          <figcaption>Paris</figcaption>
+        </figure>
+        <figure>
+          <img src="css/images/new-york.jpg" alt="New York" />
+          <figcaption>New York</figcaption>
+        </figure>
+        <figure>
+          <img src="css/images/Turkey.jpg" alt="Turkey" />
+          <figcaption>Turkey</figcaption>
+        </figure>
       </div>
-      <div class="more">
-        <a href="">
-          <button>
-            Browse More
-          </button>
-        </a>
-      </div>
+      <button>Browse More</button>
     </section>
-    <section id="join">
-      <article class="text">
-        <h1>Join Now!</h1>
+    <!-- Registeration here -->
+    <section id="register">
+      <!-- Registeration description -->
+      <div class="desc">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, eum
-          minus asperiores exercitationem odio dolores aut blanditiis pariatur
-          nam, perspiciatis ad sit itaque tempora
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim illo
+          earum, facilis sint, pariatur quos doloribus porro optio
+          exercitationem adipisci iusto? Ex, neque. Exercitationem placeat,
+          nihil obcaecati labore totam provident.
         </p>
-      </article>
-      <article class="form">
+      </div>
+      <!-- Registration form -->
+      <div class="form">
         <form action="">
-          <h2>Sign Up</h2>
-          <p>Full Name</p>
+          <label>Full Name</label>
           <input type="text" />
-          <p>Email address</p>
+          <label>E-mail</label>
           <input type="email" />
-          <p>Password</p>
+          <label>Password</label>
           <input type="password" />
-          <p>Confirm Password</p>
-          <input type="password" /> <br /><br /><br />
+          <label>Confirm Password</label>
+          <input type="password" />
           <input type="submit" value="Sign Up" />
         </form>
-      </article>
+      </div>
     </section>
+    <!-- Footer here -->
     <footer>
-      <div id="links">
-        <h4>Quick Links</h4>
+      <!-- Social here -->
+      <div id="social">
         <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Contact</a></li>
+          <li>Facebook</li>
+          <li>Twitter</li>
+          <li>Github</li>
         </ul>
       </div>
-      <div id="social-media">
-        <a href="" class="fa fa-facebook"></a>
-        <a href="" class="fa fa-instagram"></a>
-        <a href="" class="fa fa-twitter"></a>
+      <!-- Quick links here -->
+      <div id="quick-links">
+        <ul>
+          <li>About</li>
+          <li>Contact</li>
+          <li>FAQs</li>
+        </ul>
       </div>
     </footer>
   </body>
