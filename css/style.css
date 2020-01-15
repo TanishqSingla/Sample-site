@@ -165,30 +165,94 @@ header button:focus {
 }
 
 #register {
-  margin: 0;
-  position: relative;
+  height: 600px;
+  margin: 0px;
 }
 
 #register > * {
-  overflow-x: hidden;
-  z-index: 1;
-  height: 100%;
-  width: 50%;
+  display: inline-block;
+  height: 600px;
   margin: 0;
-  position: relative;
 }
 
 #register .desc {
-  outline: solid 1px red;
+  background: #494949;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  width: 50%;
 }
 
 #register .desc p {
-  margin: 0;
+  color: white;
+  font-family: 'Hind Siliguri', sans-serif;
+  font-size: 24px;
+  font-weight: lighter;
+  margin: 20px;
+  position: relative;
+  top: 24%;
 }
 
 #register .form {
-  left: 50%;
-  outline: solid 1px blue;
+  background: #ffbb6b;
+  position: absolute;
+  right: 0;
+  width: 50%;
+}
+
+#register .form form {
+  background: #fff;
+  border-radius: 10%;
+  -webkit-box-shadow: 0px 3px 6px -2px #000;
+          box-shadow: 0px 3px 6px -2px #000;
+  height: 70%;
+  left: 30%;
+  padding: 10px;
+  padding-left: 30px;
+  position: relative;
+  top: 10%;
+  width: 40%;
+}
+
+#register .form form label, #register .form form input {
+  text-align: left;
+  margin-top: 20px;
+  display: block;
+  font-family: sans-serif;
+}
+
+#register .form form label {
+  font-size: 16px;
+}
+
+#register .form form input {
+  border: none;
+  width: 60%;
+  border-bottom: solid 1px black;
+}
+
+#register .form form input:focus {
+  outline: none;
+}
+
+#register .form form input[type="text"], #register .form form input[type="email"], #register .form form input[type="password"] {
+  font-size: 18px;
+  font-weight: 10;
+}
+
+#register .form form input[type="submit"] {
+  width: 75px;
+  height: 35px;
+  border: none;
+  background: red;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  -webkit-box-shadow: 0px 4px 6px -3px black;
+          box-shadow: 0px 4px 6px -3px black;
+  position: absolute;
+  bottom: 40px;
+  right: 50px;
 }
 
 footer {

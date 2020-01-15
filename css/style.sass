@@ -108,22 +108,70 @@ header
                 font-family: 'Josefin Sans', sans-serif
                 font-weight: bold
 #register
-    margin: 0
-    position: relative
+    height: 600px
+    margin: 0px
     > *
-        overflow-x: hidden
-        z-index: 1
-        height: 100%
-        width: 50%
+        display: inline-block
+        height: 600px
         margin: 0
-        position: relative
     .desc
-        outline: solid 1px red
+        background: #494949
+        left: 0
+        position: absolute
+        text-align: center
+        width: 50%
         p
-            margin: 0
+            color: white
+            font-family: 'Hind Siliguri', sans-serif
+            font-size: 24px
+            font-weight: lighter
+            margin: 20px
+            position: relative
+            top: 24%
     .form
-        left: 50%
-        outline: solid 1px blue
+        background: #ffbb6b
+        position: absolute
+        right: 0
+        width: 50%
+        form
+            background: #fff
+            border-radius: 10%
+            box-shadow: 0px 3px 6px -2px #000
+            height: 70%
+            left: 30%
+            padding: 10px
+            padding-left: 30px
+            position: relative
+            top: 10%
+            width: 40%
+            label, input
+                text-align: left
+                margin-top: 20px
+                display: block
+                font-family: sans-serif
+            label
+                font-size: 16px
+            input
+                border: none
+                width: 60%
+                border-bottom: solid 1px black
+                &:focus
+                    outline: none
+            input[type="text"], input[type="email"], input[type="password"]
+                    font-size: 18px
+                    font-weight: 10
+            input[type="submit"]
+                    width: 75px
+                    height: 35px
+                    border: none
+                    background: red
+                    color: white
+                    font-weight: bold
+                    text-align: center
+                    box-shadow: 0px 4px 6px -3px black
+                    position: absolute
+                    bottom: 40px
+                    right: 50px
 footer
     background: #444
     border-top: solid 1px black
