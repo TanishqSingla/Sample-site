@@ -163,4 +163,47 @@ header button:focus {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: bold;
 }
+
+#register {
+  outline: 1px solid blue;
+  padding: 0;
+}
+
+#register > * {
+  display: inline-block;
+  margin: 0;
+}
+
+#register .desc {
+  outline: 1px solid red;
+  width: 40%;
+  padding: 2em;
+}
+
+#register .form {
+  outline: 1px solid yellow;
+  width: 40%;
+  padding: 2em;
+}
+
+#register .form > * {
+  display: block;
+}
+
+footer {
+  position: relative;
+  border-top: solid 1px black;
+}
+
+footer > * {
+  display: inline-block;
+}
+
+footer #social ul {
+  list-style-type: none;
+}
+
+footer #quick-links ul {
+  list-style-type: none;
+}
 /*# sourceMappingURL=style.css.map */
