@@ -108,25 +108,27 @@ header
                 font-family: 'Josefin Sans', sans-serif
                 font-weight: bold
 #register
-    outline: 1px solid blue
-    padding: 0
-    & > *
-        display: inline-block
-        margin: 0
-    .desc
-        outline: 1px solid red
-        width: 40%
-        padding: 2em
-    .form
-        outline: 1px solid yellow
-        width: 40%
-        padding: 2em
-        & > *
-            display: block
-
-footer
+    margin: 0
     position: relative
+    > *
+        overflow-x: hidden
+        z-index: 1
+        height: 100%
+        width: 50%
+        margin: 0
+        position: relative
+    .desc
+        outline: solid 1px red
+        p
+            margin: 0
+    .form
+        left: 50%
+        outline: solid 1px blue
+footer
+    background: #444
     border-top: solid 1px black
+    color: white
+    font-family: 'Josefin Sans', sans-serif
     & > *
         display: inline-block
     #social
