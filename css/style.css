@@ -1,19 +1,26 @@
-/* Below is the index for css/sass */
-/* Index
- 1. Body
- 2. Header
- ul
- ul > li
- #intro
- #intro > h1 + p
- button &:hover &:focus
+/* Below are the instructions to get the result out of comments
+
+To find the css/sass for an element do this
+
+1. If it is a tag with no id or class just search for the tag
+2. If it is a tag with an id selector type the id of the tag
+3. If it has a class find the class, if you can't find it then search the tag
+4. Search for a specific element inside a section is also provided in the comments
+For finding elements inside a section or element type the name of the element and then put -> for elements insie it
+e.g <name of selector> -> <name/selector for the element>
+
  */
+
+
+/* body starts here */
 body {
   margin: 0;
   padding: 0;
   text-align: center;
 }
+/* body ends here */
 
+/* header editing starts here */
 header {
   background-image: url(images/road.jpg);
   background-repeat: no-repeat;
@@ -22,18 +29,18 @@ header {
   margin: 0;
   padding: 2em 0;
 }
-
+/* header -> ul starts here */
 header ul {
   margin: 0;
   list-style-type: none;
 }
-
+/* header -> ul -> li starts here */
 header ul li {
   display: inline-block;
   margin-left: 100px;
   margin-right: 100px;
 }
-
+/* header -> ul -> li -> a starts here */
 header ul li a {
   color: #ffbe33;
   font-family: 'Josefin Sans', sans-serif;
@@ -47,13 +54,18 @@ header ul li a {
 header ul li a:hover {
   color: #a8a8a8;
 }
+/* header -> ul -> li -> a ends here */
+/* header -> ul -> li ends here */
+/* header -> ul ends here */
 
+/* header -> #intro start here */
 header #intro {
   margin: 14em auto;
   width: 30em;
   color: white;
 }
 
+/* header -> #intro -> * starts here */
 header #intro h1 {
   font-family: 'Hind Silguri', sans-serif;
   font-size: 3.4375em;
@@ -63,7 +75,9 @@ header #intro p {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 1.5em;
 }
+/* header -> #intro ends here */
 
+/* header -> button starts here */
 header button {
   background: none;
   border: solid 1px white;
@@ -89,16 +103,22 @@ header button:hover {
 header button:focus {
   outline: none;
 }
+/* header -> button ends here */
 
+/* header editing ends here */
+
+/* Picks section starts here */
 #picks {
   padding: 2em 0;
 }
 
+/* #picks -> * starts here */
+/* #picks -> h1 starts here  */
 #picks h1 {
   margin: 0 auto;
   font-family: 'Hind Silguri', sans-serif;
 }
-
+/* #picks -> button starts here */
 #picks button {
   background: #f88020;
   border: none;
@@ -124,7 +144,8 @@ header button:focus {
   -webkit-transform: scale(1);
           transform: scale(1);
 }
-
+/* #picks -> button ends here */
+/* #picks -> #top-picks -> figure starts here*/
 #picks #top-picks figure {
   border-radius: 7%;
   -webkit-box-shadow: 0px 3px 6px -2px rgba(0, 0, 0, 0.8);
@@ -163,7 +184,10 @@ header button:focus {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: bold;
 }
+/* #picks -> top picks -> figure ends here */
+/* Picks section ends here */
 
+/* register section here */
 #register {
   height: 600px;
   margin: 0px;
@@ -254,7 +278,9 @@ header button:focus {
   bottom: 40px;
   right: 50px;
 }
+/* register section ends here*/
 
+/* footer section start here */
 footer {
   background: #444;
   border-top: solid 1px black;
@@ -273,4 +299,5 @@ footer #social ul {
 footer #quick-links ul {
   list-style-type: none;
 }
+/* footer section ends here */
 /*# sourceMappingURL=style.css.map */
