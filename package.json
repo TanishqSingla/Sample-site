@@ -1,0 +1,22 @@
+{
+  "name": "sample-site",
+  "version": "1.0.0",
+  "description": "This is just a personal project, basically to elevate my web development skills to a functional level",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TanishqSingla/Sample-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TanishqSingla/Sample-site/issues"
+  },
+  "homepage": "https://github.com/TanishqSingla/Sample-site#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
