@@ -9,7 +9,7 @@ const publicDir = path.join(__dirname, "../public");
 //using public dir in express
 app.use(express.static(publicDir));
 
-app.get("newYork", (req, res) => {
+app.get("/NewYork", (req, res) => {
   res.sendFile(publicDir + "/new-york.html");
 });
 
