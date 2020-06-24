@@ -13,6 +13,10 @@ app.get("/NewYork", (req, res) => {
   res.sendFile(publicDir + "/new-york.html");
 });
 
+app.get('/Tokyo', (req, res) => {
+  res.sendFile(publicDir + '/tokyo.html');
+})
+
 app.listen(3000, () => {
   console.log("Server is up at port 3000");
 });
